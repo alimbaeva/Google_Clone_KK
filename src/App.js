@@ -4,10 +4,14 @@ import { Footer } from './components/Footer';
 import { Routes } from './components/Routes';
 
 const App = () => {
-    const []
+    const [darkTheme, setDarkTheme] = useState(false);
     return (
-        <div>
-            <h1>App</h1>
+        <div className={darkTheme ? 'dark' : ''}>
+            <div className='bg-gray-100 dark:bg-gray-900 dark:taxt-gray-200 min-h-screen'>
+                <Navbar />
+                <Routes />
+                <Footer />
+            </div>
         </div>
     );
 };
