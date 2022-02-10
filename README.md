@@ -1,4 +1,4 @@
-#google-clone-asel.netlify.app
+[google-clone-asel.netlify.app]:http://google-clone-asel.netlify.app
 ===
 
 
