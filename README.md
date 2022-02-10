@@ -1,5 +1,4 @@
 [google-clone-asel.netlify.app]:http://google-clone-asel.netlify.app
-===
 
 
 # Getting Started with Create React App
